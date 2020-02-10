@@ -9,12 +9,12 @@ if (isset($_GET['delete_product_id'])) {
     if ($del_p) {
         echo "<div class='alert alert-success'>
                 <a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-                <h1 class='text-center'>product deleted successfully</h1>
+                <h4 class='text-center'>product deleted successfully</h>
               </div>";
     } else {
         echo "<div class='alert alert-warning'>
                 <a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-                <h1 class='text-center'>product not deleted</h1>
+                <h4 class='text-center'>product not deleted</h4>
               </div>";
     }
 }
