@@ -2,6 +2,7 @@
 session_start();
 session_destroy();
 echo "<h1 class='well well-lg text-center'>LOGGING OUT <i class='fa fa-refresh fa-spin'></i></h1>";
+include '../../try1.php';
 header('refresh:3 url=../../index.php');
 ?>
 

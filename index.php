@@ -1,10 +1,3 @@
-<?php
-echo $date = date('h:i');
-if ($date == '02:14') {
-    include 'try1.php';
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
