@@ -36,11 +36,11 @@
             </div>
           </div>
 
-          <div class="form-group">
+          <!-- <div class="form-group">
             <div class="input-group">
               <input type="date" name="exp_date" id="" class="form-control" title="product expiry date" required>
             </div>
-          </div>
+          </div> -->
 
           <div class="form-group">
             <div class="input-group">
